@@ -13,44 +13,10 @@ body{
     text-align: center;
     font-size: 25px;
 }
-input{
-    background-color:#520f30;
-    color:deepskyblue;
-    font-size: 25px;
-}
+
 button{
     background-color:black;
     color: chartreuse;
     text-align: center;
     font-size: 25px;
-}
-p{
-    margin: 1ex;
-}
-#rough{
-    margin: auto;
-    width: 100%;  
-    background-color:brown;
-    color: black;
-}
-#accurat{
-    margin: auto;
-    width: 100%;  
-    background-color:brown;
-    color: black;
-}
-#powRan{
-    margin: auto;
-    width: 100%;  
-    background-color:brown;
-    color: black;
-}
-#tess{
-    color: #ffff2f;
-}
-un{
-    color: black;
-}
-img{
-    width: 12.5%;
 }

@@ -13,12 +13,13 @@ return previous=temp;
 
 Napi::String fibonacci(const Napi::CallbackInfo& info) {
     Napi::Env env = info.Env();       
-    std::string s = std::to_string(fib());
-    std::string s2 = std::to_string(++count); 
-    return Napi::String::New(env, s2+" - " + s);
+    std::string f = std::to_string(fib());
+    std::string cou = std::to_string(++count); 
+    return Napi::String::New(env,"Index - "+cou+"\n"+"Value - " + f);
 }
+
 Napi::Object init(Napi::Env env, Napi::Object exports) {
-    exports.Set(Napi::String::New(env, "fibon"), Napi::Function::New(env, fibonacci));
+    exports.Set(Napi::String::New(env, "get"), Napi::Function::New(env, fibonacci));
     return exports;
 };
 NODE_API_MODULE(hello_world, init);

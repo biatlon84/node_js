@@ -46,7 +46,7 @@ INCS_Debug := \
 	-I/home/kwas/.cache/node-gyp/12.13.0/deps/uv/include \
 	-I/home/kwas/.cache/node-gyp/12.13.0/deps/zlib \
 	-I/home/kwas/.cache/node-gyp/12.13.0/deps/v8/include \
-	-I/home/kwas/node/first/node_modules/node-addon-api
+	-I/home/kwas/node/Fibonacci/node_modules/node-addon-api
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=fib' \
@@ -89,7 +89,7 @@ INCS_Release := \
 	-I/home/kwas/.cache/node-gyp/12.13.0/deps/uv/include \
 	-I/home/kwas/.cache/node-gyp/12.13.0/deps/zlib \
 	-I/home/kwas/.cache/node-gyp/12.13.0/deps/v8/include \
-	-I/home/kwas/node/first/node_modules/node-addon-api
+	-I/home/kwas/node/Fibonacci/node_modules/node-addon-api
 
 OBJS := \
 	$(obj).target/$(TARGET)/fib.o

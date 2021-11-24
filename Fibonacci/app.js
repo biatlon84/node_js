@@ -7,9 +7,10 @@ app.use(express.static('./public'));
 app.set('view engine', 'ejs');
 
 app.get('/',function(req,res){
-    res.render(path.join(__dirname , '/views/index.ejs'), {fibnn:expan.fibon()});
+    let an = expan.get().split("\n");
+    res.render(path.join(__dirname , '/views/index.ejs'), {num:an[0],fibnn:an[1]});
     });
 
 app.listen('3000',function(){
-    console.log("server started!");
+    console.log("Server started!");
 });

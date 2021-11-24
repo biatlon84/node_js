@@ -76,7 +76,7 @@
     "standalone_static_library": 1,
     "user_agent": "npm/7.23.0 node/v12.13.0 linux x64 workspaces/false",
     "userconfig": "/home/kwas/.npmrc",
-    "local_prefix": "/home/kwas/node/first",
+    "local_prefix": "/home/kwas/node/Fibonacci",
     "metrics_registry": "https://registry.npmjs.org/",
     "prefix": "/usr/local",
     "cache": "/home/kwas/.npm",
